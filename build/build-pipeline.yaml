@@ -1,0 +1,37 @@
+# build numbering format
+name: $(Build.DefinitionName)_$(date:yyyyMMdd)_$(SourceBranchName)$(rev:.r)
+
+resources:
+  - repo: self
+queue:
+  name: Linux
+
+# variables are [name]:[value]; remove { } when adding values.
+variables: {}
+
+steps:
+  - task: ShellScript@2
+    displayName: "build cqrs"
+    inputs:
+      scriptPath: "build/run-build-apps.sh"
+      args: '"$(Build.StagingDirectory)"'
+      disableAutoCwd: true
+
+  - task: ShellScript@2
+    displayName: "test cqrs"
+    inputs:
+      scriptPath: "build/run-test-apps.sh"
+      args: '"$(Build.StagingDirectory)"'
+      disableAutoCwd: true
+
+  - task: PublishTestResults@1
+    displayName: "Publish Test Results ../**/TestResults/*.trx"
+    inputs:
+      testRunner: VSTest
+      testResultsFiles: "../**/TestResults/*.trx"
+    condition: succeededOrFailed()
+
+  - task: PublishBuildArtifacts@1
+    displayName: "Publish Artifact: drop"
+    inputs:
+      PathtoPublish: "$(Build.ArtifactStagingDirectory)/drop"
