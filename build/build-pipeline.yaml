@@ -25,14 +25,14 @@ steps:
     displayName: "build cqrs"
     inputs:
       scriptPath: "build/run-build-apps.sh"
-      args: '"$(Build.ArtifactStagingDirectory)"'
+      args: '"$(Build.StagingDirectory)"'
       disableAutoCwd: true
 
   - task: ShellScript@2
     displayName: "test cqrs"
     inputs:
       scriptPath: "build/run-test-apps.sh"
-      args: '"$(Build.ArtifactStagingDirectory)"'
+      args: '"$(Build.StagingDirectory)"'
       disableAutoCwd: true
 
   - task: PublishTestResults@1
@@ -41,8 +41,11 @@ steps:
       testRunner: VSTest
       testResultsFiles: "../**/TestResults/*.trx"
     condition: succeededOrFailed()
-
-  - task: PublishBuildArtifacts@1
-    displayName: "Publish Artifact: output"
-    inputs:
-      PathtoPublish: "$(Build.ArtifactStagingDirectory)/output"
+  #
+  #  copying nuget package to output directory is not done yet
+  #  would want to add a conditional step based on branch name = release
+  #
+  # - task: PublishBuildArtifacts@1
+  #   displayName: "Publish Artifact: output"
+  #   inputs:
+  #     PathtoPublish: "$(Build.ArtifactStagingDirectory)/output"
