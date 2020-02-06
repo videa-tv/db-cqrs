@@ -29,7 +29,7 @@ trap "bye" EXIT
 set -e
 echo Testing apps
 testApp "$baseDir/Videa.Data.CQRS.Tests/Videa.Data.CQRS.Tests.csproj" "cqrs tests"
-testApp "$baseDir/Videa.Data.CQRS.Dapper.Tests/Videa.Data.Dapper.CQRS.Tests.csproj" "dapper tests"
+testApp "$baseDir/Videa.Data.CQRS.Dapper.Tests/Videa.Data.CQRS.Dapper.Tests.csproj" "dapper tests"
 
 # fix permissions on new files as otherwise only root will be able to access them
 fixPermissions
