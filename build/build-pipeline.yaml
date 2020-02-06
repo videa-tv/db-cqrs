@@ -9,6 +9,17 @@ queue:
 # variables are [name]:[value]; remove { } when adding values.
 variables: {}
 
+# specific branch build
+trigger:
+  branches:
+    include:
+      - dev
+      - release
+      - feature/*
+      - releases/*
+    exclude:
+      - releases/old*
+
 steps:
   - task: ShellScript@2
     displayName: "build cqrs"
