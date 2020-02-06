@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1F8398C4-8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videa.Data.CQRS.Dapper.Tests", "test\Videa.Data.CQRS.Dapper.Tests\Videa.Data.CQRS.Dapper.Tests.csproj", "{883B620D-674C-46CD-AB12-D960D2B5126C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videa.Data.CQRS.Tests", "test\Videa.Data.CQRS.Tests\Videa.Data.CQRS.Tests.csproj", "{76FD73D3-684F-40B3-BE46-512C95D3B7C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,7 @@ Global
 		{7A40367F-B90E-4AB8-8CFA-6F05CD994D9D} = {56B469D6-FCE5-4614-A925-A32784A600B4}
 		{E3429529-B239-461F-AE09-00FC4090D7A0} = {56B469D6-FCE5-4614-A925-A32784A600B4}
 		{883B620D-674C-46CD-AB12-D960D2B5126C} = {1F8398C4-8A20-46F9-B1FD-28030BEB8347}
+		{76FD73D3-684F-40B3-BE46-512C95D3B7C1} = {1F8398C4-8A20-46F9-B1FD-28030BEB8347}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EEE68908-9CDA-4BAD-B5F4-C4AEF7C48CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -47,5 +50,9 @@ Global
 		{883B620D-674C-46CD-AB12-D960D2B5126C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{883B620D-674C-46CD-AB12-D960D2B5126C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{883B620D-674C-46CD-AB12-D960D2B5126C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76FD73D3-684F-40B3-BE46-512C95D3B7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76FD73D3-684F-40B3-BE46-512C95D3B7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76FD73D3-684F-40B3-BE46-512C95D3B7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76FD73D3-684F-40B3-BE46-512C95D3B7C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

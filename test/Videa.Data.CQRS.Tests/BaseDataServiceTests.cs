@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Videa.Datastore.Provider;
+using Videa.Data.CQRS.Provider;
 
-namespace Videa.Datastore.Tests
+namespace Videa.Data.CQRS.Tests
 {
     [TestClass]
     public class BaseDataServiceTests

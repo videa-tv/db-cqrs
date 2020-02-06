@@ -3,10 +3,11 @@ using System.Data;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Videa.Datastore.Connection;
-using Videa.Datastore.Provider;
+using Videa.Data.CQRS.Connection;
+using Videa.Data.CQRS.Provider;
 
-namespace Videa.Datastore.Tests
+
+namespace Videa.Data.CQRS.Tests
 {
     [TestClass]
     public class DatastoreContextTests

@@ -1,6 +1,6 @@
-﻿using Videa.Datastore.Provider;
+﻿using Videa.Data.CQRS.Provider;
 
-namespace Videa.Datastore.Tests
+namespace Videa.Data.CQRS.Tests
 {
     public class BaseDataServiceMock : BaseDataService<IDbProvider>
     {
