@@ -9,6 +9,4 @@ docker run --rm \
     -v $(pwd):/src \
     -v $outDir:/output \
     -v "$(readlink -f ~/.nuget)":/root/.nuget \
-    -v "$(readlink -f ~/.npm)":/root/.npm \
-    -v "$(readlink -f ~/.cache)":/root/.cache \
     mcr.microsoft.com/dotnet/core/sdk:3.1 /src/build/build-apps.sh "/src/src" "Release" "/output"

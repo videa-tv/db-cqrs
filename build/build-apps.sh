@@ -19,7 +19,7 @@ bye() {
 
 buildApp() {
 	appPath=$1
-	dotnet publish -c $configuration -f netcoreapp3.1 -o "$outDir/$2" $appPath
+	dotnet publish -c $configuration -f netstandard2.0 -o "$outDir/$2" $appPath
 }
 
 #Stop execution on any error
