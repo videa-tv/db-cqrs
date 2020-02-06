@@ -32,6 +32,6 @@ steps:
     condition: succeededOrFailed()
 
   - task: PublishBuildArtifacts@1
-    displayName: "Publish Artifact: drop"
+    displayName: "Publish Artifact: output"
     inputs:
-      PathtoPublish: "$(Build.ArtifactStagingDirectory)/drop"
+      PathtoPublish: "$(Build.ArtifactStagingDirectory)/output"
