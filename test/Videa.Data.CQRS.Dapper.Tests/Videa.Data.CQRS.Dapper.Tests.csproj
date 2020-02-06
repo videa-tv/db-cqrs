@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Code\Videa.Datastore.Dapper\Videa.Datastore.Dapper.csproj" />
+    <ProjectReference Include="..\..\src\Videa.Data.CQRS.Dapper\Videa.Data.CQRS.Dapper.csproj" />
   </ItemGroup>
 
 </Project>

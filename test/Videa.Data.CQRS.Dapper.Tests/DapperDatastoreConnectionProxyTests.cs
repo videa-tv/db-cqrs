@@ -3,7 +3,7 @@ using System.Data;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
-namespace Videa.Datastore.Dapper.Tests
+namespace Videa.Data.CQRS.Dapper.Tests
 {
     [TestClass]
     public class DapperDatastoreConnectionProxyTests
