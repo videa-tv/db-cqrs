@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videa.Data.CQRS.Dapper", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videa.Data.CQRS.Dapper.Extensions.Microsoft.DependencyInjection", "src\Videa.Data.CQRS.Dapper.Extensions.Microsoft.DependencyInjection\Videa.Data.CQRS.Dapper.Extensions.Microsoft.DependencyInjection.csproj", "{7A40367F-B90E-4AB8-8CFA-6F05CD994D9D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videa.Data.CQRS.Extensions.Microsoft.DependencyInjection", "src\Videa.Data.CQRS.Extensions.Microsoft.DependencyInjection\Videa.Data.CQRS.Extensions.Microsoft.DependencyInjection.csproj", "{E3429529-B239-461F-AE09-00FC4090D7A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,7 @@ Global
 		{EEE68908-9CDA-4BAD-B5F4-C4AEF7C48CF6} = {56B469D6-FCE5-4614-A925-A32784A600B4}
 		{924342C6-AF90-4C80-AC60-AAA806A9ED63} = {56B469D6-FCE5-4614-A925-A32784A600B4}
 		{7A40367F-B90E-4AB8-8CFA-6F05CD994D9D} = {56B469D6-FCE5-4614-A925-A32784A600B4}
+		{E3429529-B239-461F-AE09-00FC4090D7A0} = {56B469D6-FCE5-4614-A925-A32784A600B4}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EEE68908-9CDA-4BAD-B5F4-C4AEF7C48CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -31,5 +34,9 @@ Global
 		{7A40367F-B90E-4AB8-8CFA-6F05CD994D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A40367F-B90E-4AB8-8CFA-6F05CD994D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A40367F-B90E-4AB8-8CFA-6F05CD994D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3429529-B239-461F-AE09-00FC4090D7A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3429529-B239-461F-AE09-00FC4090D7A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3429529-B239-461F-AE09-00FC4090D7A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3429529-B239-461F-AE09-00FC4090D7A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
