@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-using Videa.Datastore.Connection;
-using Videa.Datastore.Extensions.Microsoft.DependencyInjection;
+using Videa.Data.CQRS.Connection;
+using Videa.Data.CQRS.Extensions.Microsoft.DependencyInjection;
 
-namespace Videa.Datastore.Dapper.Extensions.Microsoft.DependencyInjection
+namespace Videa.Data.CQRS.Dapper.Extensions.Microsoft.DependencyInjection
 {
     public static class ServiceCollectionExtensions
     {

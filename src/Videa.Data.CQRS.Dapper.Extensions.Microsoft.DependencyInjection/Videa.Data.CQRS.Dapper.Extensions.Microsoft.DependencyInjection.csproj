@@ -20,8 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Videa.Datastore.Dapper\Videa.Datastore.Dapper.csproj" />
-    <ProjectReference Include="..\Videa.Datastore.Extensions.Microsoft.DependencyInjection\Videa.Datastore.Extensions.Microsoft.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Videa.Data.CQRS.Dapper\Videa.Data.CQRS.Dapper.csproj" />
+    <ProjectReference Include="..\Videa.Data.CQRS.Extensions.Microsoft.DependencyInjection\Videa.Data.CQRS.Extension.Microsoft.DependencyInjection.csproj" />
   </ItemGroup>
 
 </Project>
