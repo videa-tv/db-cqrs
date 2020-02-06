@@ -25,14 +25,14 @@ steps:
     displayName: "build cqrs"
     inputs:
       scriptPath: "build/run-build-apps.sh"
-      args: '"$(Build.StagingDirectory)"'
+      args: '"$(Build.ArtifactStagingDirectory)"'
       disableAutoCwd: true
 
   - task: ShellScript@2
     displayName: "test cqrs"
     inputs:
       scriptPath: "build/run-test-apps.sh"
-      args: '"$(Build.StagingDirectory)"'
+      args: '"$(Build.ArtifactStagingDirectory)"'
       disableAutoCwd: true
 
   - task: PublishTestResults@1
