@@ -1,7 +1,7 @@
 ﻿using System.Data;
-using Videa.Datastore.Connection;
+using Videa.Data.CQRS.Connection;
 
-namespace Videa.Datastore.Dapper
+namespace Videa.Data.CQRS.Dapper
 {
     public class DapperDatastoreConnectionProxyFactory : IDatastoreConnectionProxyFactory
     {

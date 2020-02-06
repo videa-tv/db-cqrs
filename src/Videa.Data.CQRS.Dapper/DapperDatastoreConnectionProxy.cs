@@ -4,9 +4,9 @@ using System.Data;
 using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
 using Dapper;
-using Videa.Datastore.Connection;
+using Videa.Data.CQRS.Connection;
 
-namespace Videa.Datastore.Dapper
+namespace Videa.Data.CQRS.Dapper
 {
     [ExcludeFromCodeCoverage]
     public class DapperDatastoreConnectionProxy : IDatastoreConnectionProxy
