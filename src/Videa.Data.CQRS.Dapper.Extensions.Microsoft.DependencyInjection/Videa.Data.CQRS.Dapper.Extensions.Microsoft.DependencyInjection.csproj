@@ -21,7 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Videa.Data.CQRS.Dapper\Videa.Data.CQRS.Dapper.csproj" />
-    <ProjectReference Include="..\Videa.Data.CQRS.Extensions.Microsoft.DependencyInjection\Videa.Data.CQRS.Extension.Microsoft.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Videa.Data.CQRS.Extensions.Microsoft.DependencyInjection\Videa.Data.CQRS.Extensions.Microsoft.DependencyInjection.csproj" />
   </ItemGroup>
 
 </Project>

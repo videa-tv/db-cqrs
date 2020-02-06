@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Videa.Datastore\Videa.Datastore.csproj" />
+    <ProjectReference Include="..\Videa.Data.CQRS\Videa.Data.CQRS.csproj" />
   </ItemGroup>
 
 </Project>

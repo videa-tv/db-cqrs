@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Videa.Datastore.Extensions.Microsoft.DependencyInjection
+namespace Videa.Data.CQRS.Extensions.Microsoft.DependencyInjection
 {
     public static class ServiceCollectionExtensions
     {
