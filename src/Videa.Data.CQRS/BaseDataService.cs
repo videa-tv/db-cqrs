@@ -1,7 +1,7 @@
 ﻿using System;
-using Videa.Datastore.Provider;
+using Videa.Data.CQRS.Provider;
 
-namespace Videa.Datastore
+namespace Videa.Data.CQRS
 {
     public abstract class BaseDataService<T> : IDisposable
         where T : IDbProvider

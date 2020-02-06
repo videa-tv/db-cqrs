@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Videa.Datastore.Connection;
+using Videa.Data.CQRS.Connection;
 
-namespace Videa.Datastore.Command
+namespace Videa.Data.CQRS.Command
 {
     public interface ICommand
     {

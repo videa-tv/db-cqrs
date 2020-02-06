@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Data;
 using System.Threading.Tasks;
-using Videa.Datastore.Command;
-using Videa.Datastore.Connection;
-using Videa.Datastore.Provider;
-using Videa.Datastore.Query;
+using Videa.Data.CQRS.Command;
+using Videa.Data.CQRS.Connection;
+using Videa.Data.CQRS.Provider;
+using Videa.Data.CQRS.Query;
 
-namespace Videa.Datastore
+namespace Videa.Data.CQRS
 {
     public interface IDatastoreContext<TDatastore> : IDisposable 
         where TDatastore : IDbProvider

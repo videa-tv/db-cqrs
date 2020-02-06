@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{56B469D6-FCE5-4614-A925-A32784A600B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Videa.Data.CQRS", "src\Videa.Data.CQRS\Videa.Data.CQRS.csproj", "{EEE68908-9CDA-4BAD-B5F4-C4AEF7C48CF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EEE68908-9CDA-4BAD-B5F4-C4AEF7C48CF6} = {56B469D6-FCE5-4614-A925-A32784A600B4}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEE68908-9CDA-4BAD-B5F4-C4AEF7C48CF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE68908-9CDA-4BAD-B5F4-C4AEF7C48CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE68908-9CDA-4BAD-B5F4-C4AEF7C48CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE68908-9CDA-4BAD-B5F4-C4AEF7C48CF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

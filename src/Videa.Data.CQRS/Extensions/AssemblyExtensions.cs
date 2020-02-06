@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Reflection;
 
-namespace Videa.Datastore.Extensions
+namespace Videa.Data.CQRS.Extensions
 {
     public static class AssemblyExtensions
     {

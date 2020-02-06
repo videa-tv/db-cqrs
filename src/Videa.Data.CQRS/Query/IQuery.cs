@@ -1,7 +1,7 @@
-﻿using Videa.Datastore.Connection;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Videa.Data.CQRS.Connection;
 
-namespace Videa.Datastore.Query
+namespace Videa.Data.CQRS.Query
 {
     public interface IQuery<T>
     {

@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace Videa.Datastore.Connection
+namespace Videa.Data.CQRS.Connection
 {
     public interface IDatastoreConnectionProxyFactory
     {

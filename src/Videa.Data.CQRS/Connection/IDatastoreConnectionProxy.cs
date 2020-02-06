@@ -2,7 +2,7 @@
 using System.Data;
 using System.Threading.Tasks;
 
-namespace Videa.Datastore.Connection
+namespace Videa.Data.CQRS.Connection
 {
     public interface IDatastoreConnectionProxy
     {

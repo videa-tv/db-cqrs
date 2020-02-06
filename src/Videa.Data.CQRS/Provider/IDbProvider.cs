@@ -1,6 +1,6 @@
 ﻿using System.Data;
 
-namespace Videa.Datastore.Provider
+namespace Videa.Data.CQRS.Provider
 {
     public interface IDbProvider
     {
