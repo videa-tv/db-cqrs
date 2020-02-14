@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Videa.Datastore.Dapper</PackageId>
+    <PackageVersion>2.3.0</PackageVersion>
+    <Authors>Videa</Authors>
+    <Description>Package to provide a dapper implementation for IDatabaseConnectionProxy and DatabaseConnectionProxyFactory</Description>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Copyright>Copyright 2019 (c) Videa, LLC. All rights reserved.</Copyright>
+    <PackageReleaseNotes>
+      * 2.3.0 - Remove net461 targeting, allow dapper 2.x
+      * 2.2.0 - Added ProxyDbConnection to Proxy
+      * 2.1.0 - Added Query with a buffering control
+      * 2.0.0 - Updated to support Videa.Datastore 2.0
+      * 1.0.0 - Initial release.
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Videa.Datastore\Videa.Datastore.csproj"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="[1.50.5, 3.0)" />
+  </ItemGroup>
+  
+</Project>

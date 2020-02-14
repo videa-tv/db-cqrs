@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Videa.Datastore</PackageId>
+    <PackageVersion>3.1.0</PackageVersion>
+    <Authors>Videa</Authors>
+    <Description>Package to simplify executing commands and queries on IDbConnections</Description>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Copyright>Copyright 2019 (c) Videa, LLC. All rights reserved.</Copyright>
+    <PackageReleaseNotes>
+      * 3.1.0 - remove net461 targeting
+      * 3.0.0 - Added ProxyDbConnection to IDatastoreConnectionProxy
+      * 2.2.0 - Added AssemblyExtensions with GetEmbeddedQuery
+      * 2.1.0 - Added Query with a buffering control to IDatastoreConnectionProxy
+      * 2.0.0 - Changed IDatastoreContext to generic IDatastoreContext. Removed QueryAsync and ExecuteAsync
+      * 1.0.0 - Initial release.
+    </PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>
